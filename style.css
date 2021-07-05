@@ -1,0 +1,324 @@
+
+            #container{
+                margin: auto;
+                width:60%;
+                height:700px;
+            }
+
+            #row1, #row2{
+                width:100%;
+                height:50%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                /* border: 1px red dashed; */
+            }
+
+            h6 {
+                text-align: center;
+                margin: 0px;
+                padding: 3px;
+                font-size: 5px !important;
+                color: red;  
+            }
+
+            h2 {
+                text-align: center;
+                margin: 0px;
+                padding: 3px;
+                font-size: 27px !important;
+                font-weight: 500;
+            }
+
+            .subRow1{
+                float: left;
+                height:60%;
+                width:30%;
+                margin:1.5%;
+            }
+
+            .subRow1 img{
+                width:100%;
+                height:70%;
+                border:1px red dashed;
+            }
+            .row1Date{
+                clear: both;
+                float:left;
+                padding: 4px 0px;
+                font-size:8px !important;
+            }
+
+            .row1Text{
+                clear: both;
+                float:left;
+                font-size:12px !important;
+                font-weight:600;
+            }
+
+            #view{
+                clear: both;
+                margin:auto;
+                text-align: center !important;
+                background-color: red;
+                color: white;
+                font-size: 8px !important;
+                font-weight: 400 !important;
+                padding-top: 5px;
+                width:125px;
+                height:30px;
+            }
+
+            @media(min-width:1000px){
+                #row2{
+                display:grid;
+                width:100%;
+                /* grid-template: auto; */
+                grid-template-rows: 75px 75px 75px;
+                grid-template-columns: 200px 200px 200px;
+                grid-gap: 5px;
+                grid-template: "a a a"
+                "b c d"
+                "e f g";
+                /* background-color: green; */
+                padding: 20px;
+                }
+                .item1{
+                grid-area: a;
+                margin: auto;
+                text-align: center;
+                /* background-color: blue; */
+                margin: 0px 20%;
+            }
+            .item2{
+                grid-area: b;
+                align-items: left;
+                width:300px;
+                height: 100px;
+                /* background-color: blue; */
+
+            }
+            .item3{
+                grid-area: c;
+                width:300px;
+                height:100px;
+                /* background-color: blue; */
+            }
+            .item4{
+                grid-area: d;
+                width:300px;
+                height:100px;
+                /* background-color: blue; */
+            }
+            .item5{
+                grid-area: e;
+                width:300px;
+                height:100px;
+                /* background-color: blue; */
+            }
+            .item6{
+                grid-area: f;
+                width:300px;
+                height:100px;
+                /* background-color: blue; */
+            }
+            .item7{
+                grid-area: g;
+                width:300px;
+                height:100px;
+                /* background-color: blue; */
+            }
+
+            #row2 p{
+                font-size: 10px !important;
+                font-weight: 200;
+                font-size:10px !important;
+            }
+            #row2 img{
+                float:left;
+                padding-right: 5px;
+            }
+            #row2 span{
+                font-size:12px !important;
+                font-weight:600;
+            }
+
+            .des{
+                padding-left: 55px;
+                font-size: 10px !important;
+                font-weight: 200;
+            }
+            }
+        @media(max-width:999px){
+                #row2{
+                display:grid;
+                /* grid-template: auto; */
+                grid-template-rows: 75px 75px 75px;
+                grid-template-columns: 100px 100px 100px;
+                grid-gap: 5px;
+                grid-template: "a a"
+                "b c"
+                "d e"
+                "f g";
+                /* background-color: green; */
+                padding: 20px;
+            }
+
+            .item1{
+                grid-area: a;
+                margin: auto;
+                text-align: center;
+                /* background-color: blue; */
+                margin: 0px 20%;
+            }
+            .item2{
+                grid-area: b;
+                width:200px;
+                height: 100px;
+                overflow: hidden;
+                /* background-color: blue; */
+
+            }
+            .item3{
+                grid-area: c;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+            .item4{
+                grid-area: d;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+            .item5{
+                grid-area: e;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+            .item6{
+                grid-area: f;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+            .item7{
+                grid-area: g;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+
+            #row2 p{
+                font-size: 10px !important;
+                font-weight: 200;
+                font-size:10px !important;
+            }
+            #row2 img{
+                float:left;
+                padding-right: 5px;
+            }
+            #row2 span{
+                font-size:12px !important;
+                font-weight:600;
+            }
+
+            .des{
+                padding-left: 55px;
+                font-size: 10px !important;
+                font-weight: 200;
+            }
+            }
+            @media(max-width:600px){
+                #row2{
+                display:grid;
+                /* grid-template: auto; */
+                grid-template-rows: 75px 75px 75px;
+                grid-template-columns: 100px 100px 100px;
+                grid-gap: 5px;
+                grid-template: "a"
+                "b"
+                "c"
+                "d"
+                "e"
+                "f"
+                "g";
+                /* background-color: green; */
+                padding: 20px;
+            }
+
+            .item1{
+                grid-area: a;
+                margin: auto;
+                text-align: center;
+                /* background-color: blue; */
+                margin: 0px 20%;
+            }
+            .item2{
+                grid-area: b;
+                width:200px;
+                height: 100px;
+                overflow: hidden;
+                /* background-color: blue; */
+
+            }
+            .item3{
+                grid-area: c;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+            .item4{
+                grid-area: d;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+            .item5{
+                grid-area: e;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+            .item6{
+                grid-area: f;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+            .item7{
+                grid-area: g;
+                width:200px;
+                height:100px;
+                overflow: hidden;
+                /* background-color: blue; */
+            }
+
+            #row2 p{
+                font-size: 10px !important;
+                font-weight: 200;
+                font-size:10px !important;
+            }
+            #row2 img{
+                float:left;
+                padding-right: 5px;
+            }
+            #row2 span{
+                font-size:12px !important;
+                font-weight:600;
+            }
+
+            .des{
+                padding-left: 55px;
+                font-size: 10px !important;
+                font-weight: 200;
+            }
+            }
